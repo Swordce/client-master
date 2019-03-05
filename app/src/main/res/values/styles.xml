@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="anim_menu_pop">
+        <item name="android:windowEnterAnimation">@anim/pop_bottombar_in</item>
+        <item name="android:windowExitAnimation">@anim/pop_bottombar_out</item>
+    </style>
+
+    <style name="checkboxStyle">
+
+        <item name="android:button">@drawable/cx_state</item>
+
+    </style>
+
+</resources>
