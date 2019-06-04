@@ -72,9 +72,13 @@
             android:name="com.pgyersdk.PgyerProvider"
             android:authorities="${applicationId}.com.pgyer.provider"
             android:exported="false"/>
+        <!--<meta-data-->
+            <!--android:name="PGYER_APPID"-->
+            <!--android:value="96b730288788de37146df321eedb0652" >-->
+        <!--</meta-data> -->
         <meta-data
             android:name="PGYER_APPID"
-            android:value="96b730288788de37146df321eedb0652" >
+            android:value="e689eed0cd0836c873ed46b281f3fd4f" >
         </meta-data>
     </application>
 

@@ -123,9 +123,9 @@ public class ScanQRCodeActivity extends BaseMvpActivity<ScanResultPresenter> imp
         String[] s1 = result.split("\\?");
         String code = s1[1].substring(s1[1].indexOf("=") + 1, s1[1].length());
         if (!isWalkedOut) {
-            presenter.postScanResult(sid, code);
+            presenter.postScanResult(sid, result);
         } else {
-            presenter.walkedOut(sid, code);
+            presenter.walkedOut(sid, result);
         }
     }
 
